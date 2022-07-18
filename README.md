@@ -1,6 +1,8 @@
+![alt text](capa.png)
+
 # GIT-FAV
 
-Aplicação criada para a utilização da api do github , e ter acesso a informações sobre os usuários e poder selecionar os favoritos.
+Projeto como desafio do nível 06 do explorer , onde utilizei a api do github para ter informações sobre os usuários e poder selecionar quais são os favoritos.
 
 ## Tecnologias utilizadas:
 
@@ -12,6 +14,8 @@ Aplicação criada para a utilização da api do github , e ter acesso a informa
 
 - Buscar usuário;
 - Remover usuário da lista;
-- Acesar link do perfil do usuário no github;
+- Informações do usuário como total de repositórios e seguidores;
+- Não cadastra usuário já cadastrado;
+- Acessar link do perfil do usuário no github;
 - Os usuário ficam salvos no localStorage;
 
