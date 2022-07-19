@@ -166,3 +166,8 @@ table tbody tr td .remove{
   font-size: 4rem;
   color: #4E5455;
 }
+
+.active{
+ display: none;
+}
+
