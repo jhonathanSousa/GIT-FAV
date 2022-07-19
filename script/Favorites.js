@@ -43,6 +43,7 @@ export class Favorites{
     this.entries = filteredEntries;
     this.update();
     this.save();
+    this.addBgTable();
   }
 }
 
@@ -62,7 +63,7 @@ export class FavoritesView extends Favorites{
   }
 
   update(){
-    // this.removeAllTr();
+    this.removeAllTr(); 
     
     this.entries.forEach(user => {
       const row = this.createRow();
@@ -81,7 +82,8 @@ export class FavoritesView extends Favorites{
         }
       }
 
-      this.tbody.append(row);
+      this.tbody.append(row)
+      this.removeBgTable();
     });
   }
 
@@ -116,5 +118,15 @@ export class FavoritesView extends Favorites{
     this.tbody.querySelectorAll('tr').forEach((tr) => {
       tr.remove();
     });
+  }
+
+  addBgTable(){
+    const bgTable = this.root.querySelector('#bg-table');
+    bgTable.classList.remove('active');
+  }
+
+  removeBgTable(){
+    const bgTable = this.root.querySelector('#bg-table');
+    bgTable.classList.add('active');
   }
 }

@@ -147,3 +147,22 @@ table tbody tr td .remove{
   color: #F75A68; 
   cursor: pointer;
 }
+
+/* FORMATAÇÃO DE BACKGROUND-TABLE */
+.bg-table{
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+  justify-content: center;
+  background: #06181C;
+  border-right: 1px solid #4A808C;
+  border-left: 1px solid #4A808C;
+  border-bottom: 1px solid #4A808C;
+  border-radius: 0 0 10px 10px;
+  height: 50rem;
+}
+
+.bg-table h2{
+  font-size: 4rem;
+  color: #4E5455;
+}
