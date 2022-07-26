@@ -4,6 +4,8 @@
 
 Projeto como desafio do nível 06 do explorer , onde utilizei a api do github para ter informações sobre os usuários e poder selecionar quais são os favoritos.
 
+Link do projeto: https://project-git-fav.vercel.app/
+
 ## Tecnologias utilizadas:
 
 - HTML5;
