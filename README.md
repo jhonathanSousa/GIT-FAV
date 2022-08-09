@@ -2,22 +2,27 @@
 
 # GIT-FAV
 
-Projeto como desafio do nível 06 do explorer , onde utilizei a api do github para ter informações sobre os usuários e poder selecionar quais são os favoritos.
+Project as explorer challenge level 06, where I used the github api to get information about users and be able to select which ones are favorites. In addition to learning in practice how to consume an api with FETCH;
 
-Link do projeto: https://project-git-fav.vercel.app/
+## 🚀 Technologies :
 
-## Tecnologias utilizadas:
+**Front-end:** HTML5, CSS3 and JAVASCRIPT;
 
-- HTML5;
-- CSS3;
-- JAVASCRIPT;
+## 👩‍💻 Functionalities:
 
-## Funcionalidades:
+- Search users;
+- Remove user from list;
+- User information, such as total repositories and followers;
+- Does not register user already registered;
+- Access the user profile link on github;
+- Users are saved in localStorage;
 
-- Buscar usuário;
-- Remover usuário da lista;
-- Informações do usuário como total de repositórios e seguidores;
-- Não cadastra usuário já cadastrado;
-- Acessar link do perfil do usuário no github;
-- Os usuário ficam salvos no localStorage;
+## 💻 How to use :
+
+Project Link : https://project-git-fav.vercel.app/
+
+## 👨 Author :
+
+[@jhonathanSousa](https://www.linkedin.com/in/jhonathan-alves-sousa/)
+
 
