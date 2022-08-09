@@ -6,7 +6,7 @@
   text-decoration: none;
 }
 
-/* VARIÁVEIS-CSS */
+/* CSS-VARIABLES */
 :root{
   --bg-body: #030b0d;
   --ff-primary: 'Roboto', sans-serif;
@@ -37,7 +37,7 @@ body{
   margin: 0 auto;
 }
 
-/* FORMATAÇÃO HEADER */
+/* HEADER FORMATTING*/
 header{
   display: flex;
   align-items: center;
@@ -89,7 +89,7 @@ header .search button:hover , header .search  button:hover svg path{
   fill: #065E7C;
 }
 
-/* FORMATAÇÃO TABLE */
+/* TABLE FORMATTING */
 table{
   width: 100%;
   border-collapse: collapse;
@@ -148,7 +148,7 @@ table tbody tr td .remove{
   cursor: pointer;
 }
 
-/* FORMATAÇÃO DE BACKGROUND-TABLE */
+/* BACKGROUND-TABLE FORMATTING */
 .bg-table{
   display: flex;
   align-items: center;

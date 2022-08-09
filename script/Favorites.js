@@ -21,13 +21,13 @@ export class Favorites{
       const userExists = this.entries.find(entry => entry.login === username);
 
       if(userExists){
-        throw new Error('Usuário já cadastrado');
+        throw new Error('User already registered');
       }
 
 
       const user = await GithubUser.search(username); 
       if(user.login === undefined){
-        throw new Error('Usuário não encontrado! Tente novamente');
+        throw new Error('User not found! Try again');
       }
 
       this.entries = [user, ...this.entries];
@@ -76,7 +76,7 @@ export class FavoritesView extends Favorites{
       row.querySelector('.followers').textContent = user.followers;
 
       row.querySelector('.remove').onclick = () => {
-        const isOk = confirm('Tem certeza que deseja exluir?');
+        const isOk = confirm('Are you sure you want to delete?');
 
         if(isOk){
           this.delete(user);
@@ -93,24 +93,16 @@ export class FavoritesView extends Favorites{
     tr.innerHTML =
     `
       <td class="user">
-        <img src="https://github.com/jhonathanSousa.png" alt="Image">
+        <img src="" alt="Image">
         <a href="" target="_blank">
-          <p>Jhonathan Sousa</p>
-          <span>/ jhonathanSousa</span>
+          <p></p>
+          <span>/</span>
         </a>
       </td>
 
-      <td class="repositories">
-        30
-      </td>
-
-      <td class="followers">
-        30
-      </td>
-
-      <td>
-      <button class="remove">Remover</button>
-      </td>
+      <td class="repositories"></td>
+      <td class="followers"></td>
+      <td><button class="remove">Remover</button></td>
     `;
     return tr;
   }
